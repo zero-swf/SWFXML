@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SWF type="CWS" Version="8" FileLength="160" width="200" height="100" FrameRate="30" FrameCount="1">
+  <tags count="9">
+    <FileAttributes class="zero.swf.tagBodys.FileAttributes" UseGPU="false" UseDirectBlit="false" HasMetadata="false" ActionScript3="false" suppressCrossDomainCaching="false" swfRelativeUrls="false" UseNetwork="false" rest="0x00000000"/>
+    <block swfSrc="2.swf" offset="26" length="5"/>
+    <DoAction class="zero.swf.tagBodys.DoAction">
+      <Actions class="zero.swf.avm1.ACTIONRECORDs"><![CDATA[
+					//pos=37
+					//96 05 00 00 74 78 74 00
+					push "txt"
+					//pos=45
+					//1c
+					getVariable
+					//pos=46
+					//96 14 00 00 74 65 78 74 00 00 48 65 6c 6c 6f 20 57 6f 72 6c 64 21 00
+					push "text","Hello SWF!"
+					//pos=69
+					//4f
+					setMember
+					//pos=70
+					//00
+					end
+				]]></Actions>
+    </DoAction>
+    <block swfSrc="2.swf" offset="71" length="66"/>
+    <PlaceObject2 class="zero.swf.tagBodys.PlaceObject2" PlaceFlagMove="false" Depth="1" CharacterId="2" Name="txt">
+      <Matrix class="zero.swf.records.MATRIX" TranslateX="541" TranslateY="821"/>
+    </PlaceObject2>
+    <block swfSrc="2.swf" offset="156" length="4"/>
+  </tags>
+</SWF>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SWF type="CWS" Version="15" FileLength="614" width="200" height="100" FrameRate="30" FrameCount="1">
+  <tags count="11">
+    <FileAttributes class="zero.swf.tagBodys.FileAttributes" UseGPU="false" UseDirectBlit="false" HasMetadata="false" ActionScript3="true" suppressCrossDomainCaching="false" swfRelativeUrls="false" UseNetwork="false" rest="0x00000000"/>
+    <block swfSrc="3.swf" offset="26" length="106"/>
+    <DoABC class="zero.swf.tagBodys.DoABC" Flags="1" Name="">
+      <ABCData class="zero.swf.avm2.ABCClasses" minor_version="16" major_version="46">
+        <classV count="1">
+          <class ClassSealed="false" ClassFinal="false" ClassInterface="false">
+            <name value="_3_fla.MainTimeline"/>
+            <super_name value="flash.display.MovieClip"/>
+            <protectedNs value="[ProtectedNamespace]_3_fla:MainTimeline"/>
+            <iinit NeedArguments="false" NeedActivation="false" NeedRest="false" SetDxns="false" max_stack="3" local_count="1" init_scope_depth="10" max_scope_depth="11">
+              <codes class="zero.swf.avm2.AVM2Codes"><![CDATA[
+					//pos=515
+					//d0
+					getlocal0
+					//pos=516
+					//30
+					pushscope
+					//pos=517
+					//d0
+					getlocal0
+					//pos=518
+					//49 00
+					constructsuper 0
+					//pos=520
+					//5d 07
+					findpropstrict addFrameScript
+					//pos=522
+					//24 00
+					pushbyte 0
+					//pos=524
+					//d0
+					getlocal0
+					//pos=525
+					//66 05
+					getproperty [PackageInternalNs]_3_fla.frame1
+					//pos=527
+					//4f 07 02
+					callpropvoid addFrameScript 2
+					//pos=530
+					//47
+					returnvoid
+				]]></codes>
+            </iinit>
+            <itraitV count="2">
+              <itrait ATTR_Final="false" ATTR_Override="false" kind_trait_type="Slot" slot_id="0">
+                <name value="txt"/>
+                <type_name value="flash.text.TextField"/>
+              </itrait>
+              <itrait ATTR_Final="false" ATTR_Override="false" kind_trait_type="Method" disp_id="0">
+                <name value="[PackageInternalNs]_3_fla.frame1"/>
+                <method NeedArguments="false" NeedActivation="false" NeedRest="false" SetDxns="false" max_stack="2" local_count="1" init_scope_depth="10" max_scope_depth="11">
+                  <codes class="zero.swf.avm2.AVM2Codes"><![CDATA[
+					//pos=497
+					//d0
+					getlocal0
+					//pos=498
+					//30
+					pushscope
+					//pos=499
+					//d0
+					getlocal0
+					//pos=500
+					//66 03
+					getproperty txt
+					//pos=502
+					//2c 0b
+					pushstring "Hello SWF!"
+					//pos=504
+					//61 06
+					setproperty text
+					//pos=506
+					//47
+					returnvoid
+				]]></codes>
+                </method>
+              </itrait>
+            </itraitV>
+            <cinit NeedArguments="false" NeedActivation="false" NeedRest="false" SetDxns="false" max_stack="1" local_count="1" init_scope_depth="9" max_scope_depth="10">
+              <codes class="zero.swf.avm2.AVM2Codes"><![CDATA[
+					//pos=486
+					//d0
+					getlocal0
+					//pos=487
+					//30
+					pushscope
+					//pos=488
+					//47
+					returnvoid
+				]]></codes>
+            </cinit>
+          </class>
+        </classV>
+        <scriptV count="1">
+          <script>
+            <init NeedArguments="false" NeedActivation="false" NeedRest="false" SetDxns="false" max_stack="2" local_count="1" init_scope_depth="1" max_scope_depth="9">
+              <codes class="zero.swf.avm2.AVM2Codes"><![CDATA[
+					//pos=539
+					//d0
+					getlocal0
+					//pos=540
+					//30
+					pushscope
+					//pos=541
+					//65 00
+					getscopeobject scopeid=0
+					//pos=543
+					//60 08
+					getlex Object
+					//pos=545
+					//30
+					pushscope
+					//pos=546
+					//60 09
+					getlex flash.events.EventDispatcher
+					//pos=548
+					//30
+					pushscope
+					//pos=549
+					//60 0a
+					getlex flash.display.DisplayObject
+					//pos=551
+					//30
+					pushscope
+					//pos=552
+					//60 0b
+					getlex flash.display.InteractiveObject
+					//pos=554
+					//30
+					pushscope
+					//pos=555
+					//60 0c
+					getlex flash.display.DisplayObjectContainer
+					//pos=557
+					//30
+					pushscope
+					//pos=558
+					//60 0d
+					getlex flash.display.Sprite
+					//pos=560
+					//30
+					pushscope
+					//pos=561
+					//60 02
+					getlex flash.display.MovieClip
+					//pos=563
+					//30
+					pushscope
+					//pos=564
+					//60 02
+					getlex flash.display.MovieClip
+					//pos=566
+					//58 00
+					newclass _3_fla.MainTimeline
+					//pos=568
+					//1d
+					popscope
+					//pos=569
+					//1d
+					popscope
+					//pos=570
+					//1d
+					popscope
+					//pos=571
+					//1d
+					popscope
+					//pos=572
+					//1d
+					popscope
+					//pos=573
+					//1d
+					popscope
+					//pos=574
+					//1d
+					popscope
+					//pos=575
+					//68 01
+					initproperty _3_fla.MainTimeline
+					//pos=577
+					//47
+					returnvoid
+				]]></codes>
+            </init>
+            <traitV count="1">
+              <trait ATTR_Final="false" ATTR_Override="false" kind_trait_type="Class_" slot_id="1">
+                <name value="_3_fla.MainTimeline"/>
+                <classi value="_3_fla.MainTimeline"/>
+              </trait>
+            </traitV>
+          </script>
+        </scriptV>
+      </ABCData>
+    </DoABC>
+    <SymbolClass class="zero.swf.tagBodys.SymbolClass">
+      <TagAndNameList count="1">
+        <Tag value="0"/>
+        <Name value="_3_fla.MainTimeline"/>
+      </TagAndNameList>
+    </SymbolClass>
+    <block swfSrc="3.swf" offset="610" length="4"/>
+  </tags>
+</SWF>

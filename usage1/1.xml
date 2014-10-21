@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SWF type="CWS" Version="8" FileLength="125" width="200" height="100" FrameRate="30" FrameCount="1">
+  <tags count="8">
+    <block swfSrc="1.swf" offset="20" length="11"/>
+    <DefineFont3 class="zero.swf.tagBodys.DefineFont3" id="1" FontFlagsShiftJIS="false" FontFlagsSmallText="false" FontFlagsANSI="false" FontFlagsWideCodes="true" FontFlagsItalic="false" FontFlagsBold="false" LanguageCode="Latin" FontName="_sans"/>
+    <DefineFontAlignZones class="zero.swf.tagBodys.DefineFontAlignZones" FontID="1" CSMTableHint="1" Reserved="0"/>
+    <DefineEditText class="zero.swf.tagBodys.DefineEditText" id="2" WordWrap="false" Multiline="false" Password="false" ReadOnly="true" AutoSize="false" NoSelect="false" Border="false" WasStatic="false" HTML="false" UseOutlines="false" VariableName="" FontID="1" FontHeight="320" TextColor="0xff990000" InitialText="Hello SWF!">
+      <Bounds class="zero.swf.records.RECT" Xmin="-40" Xmax="2959" Ymin="-40" Ymax="398"/>
+      <textLayout class="zero.swf.records.texts.TEXTLAYOUT" Align="2" LeftMargin="0" RightMargin="0" Indent="0" Leading="40"/>
+    </DefineEditText>
+    <block swfSrc="1.swf" offset="110" length="15"/>
+  </tags>
+</SWF>

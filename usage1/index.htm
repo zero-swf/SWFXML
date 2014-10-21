@@ -1,0 +1,77 @@
+<pre>
+
+简单替换 SWF 里指定的字符串。
+
+准备一个 1.swf，里面是个 _sans 的动态文本，内容是“Hello World!”：
+
+<img src="1.png"/>
+
+双击 SWFXML.vbs 启动软件：
+
+<img src="2.png"/>
+
+toXML 模式选“文本”，确保勾上“拖入直接开始”：
+
+<img src="3.png"/>
+
+把 1.swf 拖进来：
+
+<img src="4.png"/>
+
+如无意外，会在同一目录生成 1.xml：
+
+<img src="5.png"/>、
+
+编辑 1.xml，找到 DefineEditText 节点，把 InitialText 的值改成“Hello SWF!”：
+
+<img src="6.png"/>
+
+保存 1.xml，拖入到软件里：
+
+<img src="7.png"/>
+
+如无意外，会在同一目录生成 1_modify.swf，打开 1_modify.swf 看发生了什么！
+
+<img src="8.png"/>
+
+准备一个 2.swf，放个动态文本 txt，用 AS2 代码设置内容为“Hello World!”：
+
+<img src="9.png"/>
+
+toXML 模式选“AVM1”:
+
+<img src="10.png"/>
+
+swf2xml！
+
+编辑 2.xml，找到 DoAction 节点，把 push "text","Hello World!" 改成 push "text","Hello SWF!"：
+
+<img src="11.png"/>
+
+xml2swf！
+
+打开 2_modify.swf……Surprise?！
+
+<img src="12.png"/>
+
+准备一个 3.swf，放个动态文本 txt，用 AS3 代码设置内容为“Hello World!”：
+
+<img src="13.png"/>
+
+toXML 模式选“AVM2”:
+
+<img src="14.png"/>
+
+swf2xml！
+
+编辑 3.xml，找到 DoAction 节点，把 pushstring "Hello World!" 改成 pushstring "Hello SWF!"：
+
+<img src="15.png"/>
+
+xml2swf！
+
+打开 3_modify.swf……楼主这么叼，你家里人造不！
+
+<img src="16.png"/>
+
+</pre>
