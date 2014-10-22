@@ -1,0 +1,1 @@
+﻿日志《DefineShape 和 PlaceObject2（2）》：http://bbs.9ria.com/blog-192472-14073.html

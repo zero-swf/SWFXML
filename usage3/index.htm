@@ -1,0 +1,32 @@
+<pre>
+
+DefineShape 和 PlaceObject2（2）
+
+如果把方形放到舞台的坐标为（40,50）：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/153202anqaaaz5xfajmq0c.png"/>
+
+编译为 SWF 生成的 PlaceObject2 tag，Matrix 将会是 TranslateX="800" TranslateY="1000"：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/153202bxqnksr7b9bqltul.png"/>
+
+PlaceObject2 里的 Matrix 平移单位是“twip”，1 twip = 0.05 像素（20 twip = 1 像素）；
+如果你想把方形的 x 设置为 40.08 将会自动变回 40.05：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/153203px5h3idpkk2nxi4f.png"/>
+
+如果给方形做一个 6 帧的从 x=40 到 x=90 的平移补间动画：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/1532030wwqhbc7hkcryweo.png"/>
+
+分析结构会发现不光关键帧，关键帧之间的补间帧也会分别生成 PlaceObject2：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/153204cr0kyuascbeadwcr.png"/>
+
+第一个 PlaceObject2 会有 CharacterId=1 信息；
+后续都不需要 CharacterId，同时 PlaceFlagMove=true，表示一直是用的 id=1 的 DefineShape；
+TranslateX 从 800 twips（40 像素）递增到 1800 twips（90 像素），间隔 200 twips（10 像素）。
+
+相关文件：<a href="https://github.com/zero-swf/SWFXML/tree/master/usage3" target="_blank">https://github.com/zero-swf/SWFXML/tree/master/usage3</a>
+
+</pre>
