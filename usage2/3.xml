@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SWF type="FWS" Version="17" FileLength="198" width="200" height="120" FrameRate="30" FrameCount="1">
+  <tags count="10">
+    <FileAttributes class="zero.swf.tagBodys.FileAttributes" UseGPU="false" UseDirectBlit="false" HasMetadata="false" ActionScript3="true" suppressCrossDomainCaching="false" swfRelativeUrls="false" UseNetwork="false" rest="0x00000000"/>
+    <SetBackgroundColor class="zero.swf.tagBodys.SetBackgroundColor" BackgroundColor="0x999999"/>
+    <DefineSceneAndFrameLabelData class="zero.swf.tagBodys.DefineSceneAndFrameLabelData">
+      <OffsetAndNameList count="1">
+        <Offset value="0"/>
+        <Name value="场景 1"/>
+      </OffsetAndNameList>
+    </DefineSceneAndFrameLabelData>
+    <DefineShape class="zero.swf.tagBodys.DefineShape" id="1">
+      <ShapeBounds class="zero.swf.records.RECT" Xmin="-590" Xmax="590" Ymin="-590" Ymax="590"/>
+      <Shapes class="zero.swf.records.shapes.SHAPEWITHSTYLE">
+        <FillStyleList count="1">
+          <FillStyle class="zero.swf.records.shapes.FILLSTYLE" FillStyleType="0x00" Color="0xff0000"/>
+        </FillStyleList>
+        <ShapeRecordList count="6">
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STYLECHANGERECORD" MoveDeltaX="-590" MoveDeltaY="-590" FillStyle1="1"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STRAIGHTEDGERECORD" DeltaX="1180" DeltaY="0"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STRAIGHTEDGERECORD" DeltaX="0" DeltaY="1180"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STRAIGHTEDGERECORD" DeltaX="-1180" DeltaY="0"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STRAIGHTEDGERECORD" DeltaX="0" DeltaY="-1180"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="ENDSHAPERECORD"/>
+        </ShapeRecordList>
+      </Shapes>
+    </DefineShape>
+    <PlaceObject2 class="zero.swf.tagBodys.PlaceObject2" PlaceFlagMove="false" Depth="1" CharacterId="1">
+      <Matrix class="zero.swf.records.MATRIX" TranslateX="670" TranslateY="790"/>
+    </PlaceObject2>
+    <DefineShape class="zero.swf.tagBodys.DefineShape" id="2">
+      <ShapeBounds class="zero.swf.records.RECT" Xmin="-630" Xmax="630" Ymin="-630" Ymax="630"/>
+      <Shapes class="zero.swf.records.shapes.SHAPEWITHSTYLE">
+        <FillStyleList count="1">
+          <FillStyle class="zero.swf.records.shapes.FILLSTYLE" FillStyleType="0x00" Color="0xff0000"/>
+        </FillStyleList>
+        <ShapeRecordList count="10">
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STYLECHANGERECORD" MoveDeltaX="445" MoveDeltaY="-446" FillStyle1="1"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="CURVEDEDGERECORD" ControlDeltaX="185" ControlDeltaY="185" AnchorDeltaX="0" AnchorDeltaY="261"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="CURVEDEDGERECORD" ControlDeltaX="0" ControlDeltaY="261" AnchorDeltaX="-185" AnchorDeltaY="184"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="CURVEDEDGERECORD" ControlDeltaX="-184" ControlDeltaY="185" AnchorDeltaX="-261" AnchorDeltaY="0"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="CURVEDEDGERECORD" ControlDeltaX="-261" ControlDeltaY="0" AnchorDeltaX="-185" AnchorDeltaY="-185"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="CURVEDEDGERECORD" ControlDeltaX="-184" ControlDeltaY="-184" AnchorDeltaX="0" AnchorDeltaY="-261"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="CURVEDEDGERECORD" ControlDeltaX="0" ControlDeltaY="-261" AnchorDeltaX="184" AnchorDeltaY="-185"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="CURVEDEDGERECORD" ControlDeltaX="185" ControlDeltaY="-184" AnchorDeltaX="261" AnchorDeltaY="0"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="CURVEDEDGERECORD" ControlDeltaX="261" ControlDeltaY="0" AnchorDeltaX="184" AnchorDeltaY="184"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="ENDSHAPERECORD"/>
+        </ShapeRecordList>
+      </Shapes>
+    </DefineShape>
+    <PlaceObject2 class="zero.swf.tagBodys.PlaceObject2" PlaceFlagMove="false" Depth="2" CharacterId="2">
+      <Matrix class="zero.swf.records.MATRIX" TranslateX="2050" TranslateY="1030"/>
+    </PlaceObject2>
+    <PlaceObject2 class="zero.swf.tagBodys.PlaceObject2" PlaceFlagMove="false" Depth="3" CharacterId="2">
+      <Matrix class="zero.swf.records.MATRIX" TranslateX="3300" TranslateY="1640"/>
+    </PlaceObject2>
+    <ShowFrame/>
+    <End/>
+  </tags>
+</SWF>

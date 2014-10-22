@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SWF type="FWS" Version="17" FileLength="53" width="200" height="120" FrameRate="30" FrameCount="1">
+  <tags count="5">
+    <FileAttributes class="zero.swf.tagBodys.FileAttributes" UseGPU="false" UseDirectBlit="false" HasMetadata="false" ActionScript3="true" suppressCrossDomainCaching="false" swfRelativeUrls="false" UseNetwork="false" rest="0x00000000"/>
+    <SetBackgroundColor class="zero.swf.tagBodys.SetBackgroundColor" BackgroundColor="0x999999"/>
+    <DefineSceneAndFrameLabelData class="zero.swf.tagBodys.DefineSceneAndFrameLabelData">
+      <OffsetAndNameList count="1">
+        <Offset value="0"/>
+        <Name value="场景 1"/>
+      </OffsetAndNameList>
+    </DefineSceneAndFrameLabelData>
+    <ShowFrame/>
+    <End/>
+  </tags>
+</SWF>

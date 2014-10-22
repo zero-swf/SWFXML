@@ -1,0 +1,41 @@
+<pre>
+
+DefineShape 和 PlaceObject2
+
+研究 SWF 结构最好的方法就是反编译、解剖自己做的 SWF。
+
+新建 1.fla，发布设置里压缩影片和包括 XML 元数据前面的勾去掉：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/144643jw5r6a6rwlgw8g69.png"/>
+
+导出 1.swf。
+
+1.fla 另存为 2.fla，舞台上画个红色矩形：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/144643u4y15a3nraqrt5py.png"/>
+
+导出 2.swf。
+
+启动 SWFXML（下载地址和使用方法：<a href="http://bbs.9ria.com/forum.php?mod=viewthread&tid=99340&highlight=SWFXML" target="_blank">http://bbs.9ria.com/forum.php?mod=viewthread&amp;tid=99340&amp;highlight=SWFXML</a>）；
+toXML 模式选“全结构”，对 1.swf 和 2.swf 分别进行 swf2xml 操作，导出 1.xml 和 2.xml：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/1446439nfrfnlfzfi2e59e.png"/>
+
+用文本比较器（推荐 <a href="http://cn.bing.com/search?q=TextDiff&qs=n&form=QBLH&pq=textdiff&sc=8-8&sp=-1&sk=&cvid=07c5df4eeb71413e8febb4757f3daf9a" target="_blank">TextDiff</a>）比较 1.xml 和 2.xml：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/14464467p00t1t0iam4i2f.png"/>
+
+可发现除了文件大小不同，2.swf 主要比 1.swf 多了一个 DefineShape 和一个 PlaceObject2。
+
+用闪客精灵反编译 2.swf 还可以发现舞台上的形状其实是自动转成了图形元件：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/144644chd9e9pmspsbmdwi.png"/>
+
+Flash 在编译 SWF 时会分析需要哪些元素（图形、动画、字体等），编译成对应的“definition tag”，存到一个表（the dictionary）里，每个 definition tag 都有唯一的索引 id；
+definition tag 们可以复用，比如用两个 PlaceObject2 往显示列表里放同一个圆形 DefineShape：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/1446448qsz58zee885jufj.png"/>
+
+相关文件：<a href="https://github.com/zero-swf/SWFXML/tree/master/usage2" target="_blank">https://github.com/zero-swf/SWFXML/tree/master/usage2</a>
+
+</pre>

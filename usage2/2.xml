@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SWF type="FWS" Version="17" FileLength="99" width="200" height="120" FrameRate="30" FrameCount="1">
+  <tags count="7">
+    <FileAttributes class="zero.swf.tagBodys.FileAttributes" UseGPU="false" UseDirectBlit="false" HasMetadata="false" ActionScript3="true" suppressCrossDomainCaching="false" swfRelativeUrls="false" UseNetwork="false" rest="0x00000000"/>
+    <SetBackgroundColor class="zero.swf.tagBodys.SetBackgroundColor" BackgroundColor="0x999999"/>
+    <DefineSceneAndFrameLabelData class="zero.swf.tagBodys.DefineSceneAndFrameLabelData">
+      <OffsetAndNameList count="1">
+        <Offset value="0"/>
+        <Name value="场景 1"/>
+      </OffsetAndNameList>
+    </DefineSceneAndFrameLabelData>
+    <DefineShape class="zero.swf.tagBodys.DefineShape" id="1">
+      <ShapeBounds class="zero.swf.records.RECT" Xmin="400" Xmax="1580" Ymin="340" Ymax="1520"/>
+      <Shapes class="zero.swf.records.shapes.SHAPEWITHSTYLE">
+        <FillStyleList count="1">
+          <FillStyle class="zero.swf.records.shapes.FILLSTYLE" FillStyleType="0x00" Color="0xff0000"/>
+        </FillStyleList>
+        <ShapeRecordList count="6">
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STYLECHANGERECORD" MoveDeltaX="1580" MoveDeltaY="340" FillStyle1="1"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STRAIGHTEDGERECORD" DeltaX="0" DeltaY="1180"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STRAIGHTEDGERECORD" DeltaX="-1180" DeltaY="0"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STRAIGHTEDGERECORD" DeltaX="0" DeltaY="-1180"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="STRAIGHTEDGERECORD" DeltaX="1180" DeltaY="0"/>
+          <ShapeRecord class="zero.swf.records.shapes.SHAPERECORD" type="ENDSHAPERECORD"/>
+        </ShapeRecordList>
+      </Shapes>
+    </DefineShape>
+    <PlaceObject2 class="zero.swf.tagBodys.PlaceObject2" PlaceFlagMove="false" Depth="1" CharacterId="1">
+      <Matrix class="zero.swf.records.MATRIX" TranslateX="0" TranslateY="0"/>
+    </PlaceObject2>
+    <ShowFrame/>
+    <End/>
+  </tags>
+</SWF>
