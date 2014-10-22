@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SWF type="FWS" Version="15" FileLength="544" width="200" height="100" FrameRate="30" FrameCount="1">
+  <tags count="8">
+    <block swfSrc="4.swf" offset="20" length="29"/>
+    <DefineBitsJPEG2 class="zero.swf.tagBodys.DefineBitsJPEG2" id="1">
+      <ImageData class="zero.swf.BytesData" src="4.swf.资源们/图片/DefineBitsLossless-1.png"/>
+    </DefineBitsJPEG2>
+    <block swfSrc="4.swf" offset="474" length="70"/>
+  </tags>
+</SWF>

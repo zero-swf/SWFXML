@@ -4,75 +4,95 @@
 
 准备一个 1.swf，里面是个 _sans 的动态文本，内容是“Hello World!”：
 
-<img src="1.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111901xljl4irhdagh0jzv.png"/>
 
 双击 SWFXML.vbs 启动软件：
 
-<img src="2.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111902ll56l5chpcsplgsh.png"/>
 
 toXML 模式选“文本”，确保勾上“拖入直接开始”：
 
-<img src="3.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111902pelhqrqjrwm979lf.png"/>
 
 把 1.swf 拖进来：
 
-<img src="4.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111902acrc9r5rbrttr4jt.png"/>
 
 如无意外，会在同一目录生成 1.xml：
 
-<img src="5.png"/>、
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111902obrmene2xl9e18od.png"/>、
 
 编辑 1.xml，找到 DefineEditText 节点，把 InitialText 的值改成“Hello SWF!”：
 
-<img src="6.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/1119038x7m1viwium87xzm.png"/>
 
 保存 1.xml，拖入到软件里：
 
-<img src="7.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/11190396n3kpq91dkk39n9.png"/>
 
 如无意外，会在同一目录生成 1_modify.swf，打开 1_modify.swf 看发生了什么！
 
-<img src="8.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111903kkwihskd13akj0h9.png"/>
 
 准备一个 2.swf，放个动态文本 txt，用 AS2 代码设置内容为“Hello World!”：
 
-<img src="9.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111904rvhbvas33afhmzhi.png"/>
 
 toXML 模式选“AVM1”:
 
-<img src="10.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111904b33uxlkx6vl3ku34.png"/>
 
 swf2xml！
 
 编辑 2.xml，找到 DoAction 节点，把 push "text","Hello World!" 改成 push "text","Hello SWF!"：
 
-<img src="11.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111904676ycym6x6hlvh8l.png"/>
 
 xml2swf！
 
 打开 2_modify.swf……Surprise?！
 
-<img src="12.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111905eb0qb9ebsqsyusyu.png"/>
 
 准备一个 3.swf，放个动态文本 txt，用 AS3 代码设置内容为“Hello World!”：
 
-<img src="13.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111905o8ldrooitt3ola63.png"/>
 
 toXML 模式选“AVM2”:
 
-<img src="14.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111905vqnh6h279qbb2nt6.png"/>
 
 swf2xml！
 
 编辑 3.xml，找到 DoAction 节点，把 pushstring "Hello World!" 改成 pushstring "Hello SWF!"：
 
-<img src="15.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111905usj9emilimzugems.png"/>
 
 xml2swf！
 
 打开 3_modify.swf……楼主这么叼，你家里人造不！
 
-<img src="16.png"/>
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111906u7p0wgsssp3m7471.png"/>
+
+准备一个 4.swf，里头是一张 Hello World!.png：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111906iibchblhwssbshsy.png"/>
+
+toXML 模式选“图片”，swf2xml 后，如无意外，会在同一目录生成 4.xml 和 4.swf.资源们/:
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111906uunabzavn55s97mr.png"/>
+
+打开 4.swf.资源们/图片，把 DefineBitsLossless-1.png 替换为其他内容：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/1119062y5dyw52h6aqlhd5.png"/>
+
+xml2swf：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/111907fxt5uityfm2f4sfm.png"/>
+
+搞定：
+
+<img src="http://bbs.9ria.com/data/attachment/album/201410/22/1119072nugpkuynky44p4k.png"/>
 
 相关文件：<a href="https://github.com/zero-swf/SWFXML/tree/master/usage1" target="_blank">https://github.com/zero-swf/SWFXML/tree/master/usage1</a>
 
